@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -86,3 +90,4 @@ class Isotropic( BaseMaterial ):
   
     return self.H
 
+	*/

@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -62,3 +66,4 @@ class PlaneStrain( BaseMaterial ):
   
     return self.H
 
+	*/

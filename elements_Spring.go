@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -95,3 +99,4 @@ class Spring ( Element ):
 
     #Rotate element fint to the global coordinate system
     elemdat.fint = toGlobalCoordinates( elFint, elemdat.coords )
+	*/

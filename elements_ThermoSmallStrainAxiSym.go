@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ############################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:  #
 #                                                                          #
@@ -269,3 +273,4 @@ class ThermoSmallStrainAxiSym( Element ):
       return [0,1,3,4,6,7,9,10],[2,5,8,11]
     else:
       print("Error")
+	  */

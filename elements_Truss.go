@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -166,3 +170,4 @@ class Truss ( Element ):
     KNL[2:,2:] = KNL[:2,:2]
 
     return KNL
+	*/

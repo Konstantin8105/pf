@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -44,3 +48,4 @@ def sign( x ):
     return -1.0
   else: 
     return 0.0
+	*/

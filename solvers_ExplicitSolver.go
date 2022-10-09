@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -106,3 +110,4 @@ class ExplicitSolver ( BaseModule ):
     print(' %5i ' % stat.cycle, end=' ')
     print(' %10.3e ' % stat.time, end=' ')  
     print(' %10.3e ' % float(0.5*dot(globdat.velo,(self.Mlumped*globdat.velo))))
+	*/

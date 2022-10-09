@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -72,3 +76,4 @@ class ThoulessModeI( BaseMaterial ):
     self.outData = trac
 
     return stress,tang
+	*/

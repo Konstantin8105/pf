@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -94,3 +98,4 @@ class Contact:
         val = append(val,mat.reshape(len(idofs)*len(idofs)))
               
     return row , val , col
+	*/

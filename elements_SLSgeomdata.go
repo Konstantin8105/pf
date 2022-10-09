@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ############################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:  #
 #                                                                          #
@@ -217,3 +221,4 @@ class SLSgeomdata():
         for zdat in ldat.zetaData:
           gtot = g0 + zdat.zeta*g1
           zdat.weight = zdat.isowght*sqrt(linalg.det(gtot))
+		  */

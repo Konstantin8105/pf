@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -346,4 +350,4 @@ class BeamNL ( Element ):
     d[4,4] =  d[1,1]
     
     return a,d
-
+*/

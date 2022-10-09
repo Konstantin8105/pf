@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -178,3 +182,4 @@ class PlaneStrainDamage( BaseMaterial ):
       domegadkappa = 0.
 
     return omega , domegadkappa
+	*/

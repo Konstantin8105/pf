@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -104,3 +108,4 @@ class ThermoContinuum( Element ):
     elemdat.stiff = zeros( shape=(nDof,nDof) )
     
     self.getTangentStiffness( elemdat )
+	*/

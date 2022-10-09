@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -126,3 +130,4 @@ class XuNeedleman( BaseMaterial ):
      dt2 = dt*dt
 
     return self.Gc+self.Gc*exp(-dn)*((1.-self.r+dn)*(1.-self.q)/(self.r-1.)-(self.q+(self.r-self.q)/(self.r-1.)*dn)*exp(-dt2))
+	*/

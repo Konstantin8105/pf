@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -126,3 +130,4 @@ class ThermoSurface( Element ):
      raise RuntimeError("The element must be rank 3.")
      
    return None   
+   */

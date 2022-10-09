@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -92,3 +96,4 @@ class DynEigSolver ( BaseModule ):
       logger.info('   %4i |   %6.4e rad/s |  %6.4e Hz' %(i+1,f,f/(2.0*pi)))
       
     logger.info('  ================================================\n')
+	*/

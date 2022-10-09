@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -172,3 +176,4 @@ class SmallStrainContinuum( Element ):
         N[j,self.rank*i+j] = a
     
     return N
+	*/

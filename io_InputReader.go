@@ -1,3 +1,7 @@
+package pf
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -13,14 +17,14 @@
 #  A github repository, with the most up to date version of the code,          #
 #  can be found here:                                                          #
 #     https://github.com/jjcremmers/PyFEM/                                     #
-#     https://pyfem.readthedocs.io/                                            #	
+#     https://pyfem.readthedocs.io/                                            #
 #                                                                              #
 #  The original code can be downloaded from the web-site:                      #
 #     http://www.wiley.com/go/deborst                                          #
 #                                                                              #
 #  The code is open source and intended for educational and scientific         #
 #  purposes only. If you use PyFEM in your research, the developers would      #
-#  be grateful if you could cite the book.                                     #    
+#  be grateful if you could cite the book.                                     #
 #                                                                              #
 #  Disclaimer:                                                                 #
 #  The authors reserve all rights but do not guarantee that the code is        #
@@ -44,11 +48,44 @@ import getopt,os.path,pickle
 #-------------------------------------------------------------------------------
 #
 #-------------------------------------------------------------------------------
+*/
 
+// func InputRead(filename string) (props, globdat int) {
+// 
+// 	props = fileParser(fname)
+// 
+// 	dataFileName = props.input
+// 
+// 	// logger = setLogger( props )
+// 
+// 	nodes := NodeSet()
+// 	nodes.readFromFile(dataFileName)
+// 	// logger.info(nodes)
+// 
+// 	elems = ElementSet(nodes, props)
+// 	elems.readFromFile(dataFileName)
+// 	// logger.info(elems)
+// 
+// 	dofs = DofSpace(elems)
+// 	dofs.readFromFile(dataFileName)
+// 
+// 	globdat = GlobalData(nodes, elems, dofs)
+// 
+// 	globdat.readFromFile(dataFileName)
+// 
+// 	globdat.active = True
+// 	globdat.prefix = os.path.splitext(fname)[0]
+// 
+// 	globdat.contact = Contact(props)
+// 
+// 	return
+// }
+
+/*
 def InputReader( argv ):
 
   pName,dName,params = getArguments( argv )
-  
+
   return InputRead( pName , dName , params )
 
 #-------------------------------------------------------------------------------
@@ -61,18 +98,18 @@ def InputRead( fname , dname = None , parameters = None ):
     with open(dname, 'rb') as f:
       data = pickle.load(f)
       props = data["props"]
-  
+
   if fname is not None:
     if fname[-4:] == '.pro':
       props        = fileParser( fname )
     else:
       props        = fileParser( fname+'.pro')
-    
-  if parameters is not None:  
+
+  if parameters is not None:
     for p in parameters:
       x = p.split("=")
       props.store(x[0],x[1])
-      
+
   if dname is not None:
     return props,data["globdat"]
 
@@ -83,25 +120,26 @@ def InputRead( fname , dname = None , parameters = None ):
   nodes = NodeSet()
   nodes.readFromFile( dataFileName )
   logger.info(nodes)
-  
+
   elems = ElementSet( nodes , props )
   elems.readFromFile( dataFileName )
-  logger.info(elems)  
-  
+  logger.info(elems)
+
   dofs = DofSpace( elems )
   dofs.readFromFile( dataFileName )
 
-  globdat = GlobalData( nodes, elems, dofs ) 
+  globdat = GlobalData( nodes, elems, dofs )
 
   globdat.readFromFile( dataFileName )
 
   globdat.active = True
   globdat.prefix = os.path.splitext(fname)[0]
-  
+
   globdat.contact = Contact( props )
-  	
+
   return props,globdat
-  
+
+
 #-------------------------------------------------------------------------------
 #
 #-------------------------------------------------------------------------------
@@ -110,18 +148,18 @@ def getArguments( argv ):
 
   slist = 'd:i:hvp:'
   llist = ['dump=','input=','help','version']
-  
+
   options, remainder = getopt.getopt( argv[1:] , slist , llist )
 
   proFileName  = None
   dumpFileName = None
   parameters   = []
-  
+
   if len(options) == 0:
     proFileName  = argv[1]
     options, remainder = getopt.getopt( argv[2:] , slist, llist )
-    
-  for opt, arg in options:      
+
+  for opt, arg in options:
     if opt in ('-i', '--input'):
       proFileName  = arg
     elif opt in ('-d', '--dump'):
@@ -130,5 +168,7 @@ def getArguments( argv ):
       print("Help")
     elif opt in ('-p' , '--param'):
       parameters.append(arg)
-      
-  return proFileName,dumpFileName,parameters      
+
+  return proFileName,dumpFileName,parameters
+
+*/

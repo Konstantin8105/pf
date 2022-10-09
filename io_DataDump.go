@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -67,3 +71,4 @@ class DataDump( BaseModule ):
       
       pickle.dump( data , open(name, "wb" ) )
     
+	  */

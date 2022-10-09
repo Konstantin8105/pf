@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -229,3 +233,4 @@ class DissipatedEnergySolver( BaseModule ):
 
     logger.info('    ---------------------------------------------')
     logger.info('    Converged in %i iterations with %s.\n' % (iiter,self.method ) )  
+	*/

@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -289,3 +293,4 @@ class TimoshenkoBeam ( Element ):
       a        = dot( R.transpose(), dot ( a_bar , R ) )
     return a
 
+	*/

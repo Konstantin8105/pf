@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -34,3 +38,4 @@ class BaseFailure:
 
     for name,val in props:
       setattr( self, name, val )  
+	  */

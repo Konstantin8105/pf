@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -45,3 +49,4 @@ class BaseModule:
 
       for name,val in self.myProps:
         setattr( self, name, val )
+		*/

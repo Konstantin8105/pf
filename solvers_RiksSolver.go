@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -187,3 +191,4 @@ class RiksSolver( BaseModule ):
     logger.info('    ---------------------------------------------')
     logger.info('    Converged in %i iterations' %iiter)
 
+	*/

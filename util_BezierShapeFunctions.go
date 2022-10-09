@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -114,3 +118,4 @@ def getElemBezierData( elemCoords , C , order=4 , method="Gauss" , elemType = 'd
     elemData.sData.append(sData)
 
   return elemData
+  */

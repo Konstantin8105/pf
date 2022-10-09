@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -55,3 +59,4 @@ class MultiMaterial( BaseMaterial ):
   
     return self.matmodels[0].getTangent()
 
+	*/

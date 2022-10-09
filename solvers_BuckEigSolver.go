@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -90,3 +94,4 @@ class BuckEigSolver ( BaseModule ):
       logger.info(' %3i : %6.4e  ' %(i+1,f))
       
     logger.info('======================================\n')
+	*/

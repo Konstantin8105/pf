@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -74,3 +78,4 @@ class LinearSolver ( BaseModule ):
     globdat.elements.commitHistory()
 
     globdat.active = False 
+	*/

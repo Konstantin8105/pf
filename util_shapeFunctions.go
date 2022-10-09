@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -770,3 +774,4 @@ def getShapeData( order = 0 , method = 'Gauss' , elemType = 'Default' ):
     shpData.sData.append(sData)
 
   return shpData  
+  */

@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -38,3 +42,4 @@ class Kinematics:
     self.E      = zeros( shape=( nDim , nDim ) )
     self.strain = zeros( nStr )
   
+	*/

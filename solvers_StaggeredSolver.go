@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -189,3 +193,4 @@ class StaggeredSolver ( BaseModule ):
       #print('  ---- ',loadCase,' ---------------------')
       #print('    loadFactor       : %4.2f'%lam)
       #logger.info('    incr. loadFactor : %4.2f'%dlam)   
+	  */

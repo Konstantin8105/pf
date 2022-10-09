@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -226,3 +230,4 @@ class MeshWriter ( BaseModule ):
     f.write("</VTKFile>\n")
 
     f.close()
+	*/

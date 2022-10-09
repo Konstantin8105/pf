@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -55,3 +59,4 @@ class OutputManager:
 
     for i,output in enumerate(self.outman):
       output.run( props , globdat )
+	  */

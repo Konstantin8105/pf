@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -200,3 +204,4 @@ def getAllConstraints ( props , globdat ):
       #Get the element contribution by calling the specified action
       getattr( element, 'getConstraints', None )( elemdat )
 
+	  */

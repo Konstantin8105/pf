@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -144,3 +148,4 @@ class MaterialManager ( list ):
   def commitHistory( self ):
     for mat in self.matlist:
       mat.commitHistory()
+	  */

@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -368,3 +372,4 @@ class DofSpace:
       constrainer = self.cons
     
     return scipy.linalg.norm( constrainer.C.transpose() * r )
+	*/

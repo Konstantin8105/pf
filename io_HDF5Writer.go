@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -182,3 +186,4 @@ class HDF5Writer( BaseModule ):
       output = np.array( output,dtype = float )
       
       cdat["nodeData"].create_dataset(name,output.shape, dtype='f', data=output)            
+	  */

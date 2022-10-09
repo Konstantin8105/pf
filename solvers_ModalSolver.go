@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -57,3 +61,4 @@ class ModalSolver ( BaseModule ):
     globdat.vecs , globdat.vals = globdat.dofs.eigensolve( K, M )
 
     globdat.active = False 
+	*/

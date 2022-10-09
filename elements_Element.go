@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -141,3 +145,4 @@ class Element ( list ):
   def loadFactor( self ):
     
     return self.solverStat.lam
+	*/

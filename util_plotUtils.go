@@ -1,3 +1,7 @@
+package pf 
+
+/*
+
 ################################################################################
 #  This Python file is part of PyFEM, the code that accompanies the book:      #
 #                                                                              #
@@ -35,3 +39,4 @@ def plotCurve( output ):
   plot( [x[0] for x in output], [x[1] for x in output], 'r-o' )
 
   show()
+  */
